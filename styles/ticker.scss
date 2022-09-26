@@ -37,7 +37,7 @@ $lapse: 20s;
     display: inline-flex;
     height: 5vh;
     white-space: nowrap;
-    padding-right: 100%;
+    padding-right: 100vw;
     box-sizing: content-box;
 
     -moz-animation-duration: $lapse;
@@ -57,7 +57,7 @@ $lapse: 20s;
       display: inline-flex;
       align-items: center;
       align-content: center;
-      padding: 0 1vh;
+      padding: 0 5vh;
       font-size: 2.5vh;
       color: #ff2079;
     }
