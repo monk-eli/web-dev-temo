@@ -29,7 +29,7 @@
 }
 .ticker-wrap .ticker {
   display: inline-flex;
-  height: 5vh;
+  height: 4.5vh;
   white-space: nowrap;
   padding-right: 100vw;
   box-sizing: content-box;
