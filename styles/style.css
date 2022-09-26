@@ -50,6 +50,7 @@ body {
 }
 
 .menu-container button {
+    color: black;
     text-align: center;
     font-size: 3vh;
     flex: 1 1 auto;
