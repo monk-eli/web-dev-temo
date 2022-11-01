@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #04005e;
+    color: white;
+    font-family: "IBM Plex Sans", serif;
+}
+
+.header {
+    max-height: 100vh;
+}
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    /*min-height: 95.5vh;*/
+    max-height: 95.5vh;
+    background-color: grey;
+}
+
+.menu-container {
+    min-height: 95.5vh;
+    flex: 1 1 50vw;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #440bd4;
+}
+
+.button-container {
+    flex: 1 1;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+
+
+}
+
+.menu-container{
+    justify-content: space-around;
+}
+
+.menu-container button {
+    /*border-radius: 2vh;*/
+    /*flex-basis: 100px/;*/
+    /*flex-shrink: 1;*/
+    flex: 1 1 auto;
+    color: black;
+    text-align: center;
+    font-size: 2vh;
+    font-style: normal;
+    /*flex: 1 2 auto;*/
+    width: 100%;
+    border: none;
+    background-color: #440bd4;
+    /*border: #ff2079 solid 1px;*/
+    /*background-color: grey;*/
+}
+
+.menu-container button:hover {
+    transition: 0.1s;
+    color: #ff2079;
+}
+
+.logo-container {
+    flex: 0 1 auto;
+    /*border: #ff2079 solid 1px;*/
+
+    padding-top: 10vh;
+    width: 100%;
+}
+
+.logo-container img {
+    /*height: auto;*/
+
+    width: 100%;
+    transform: scale(0.7);
+}
+
+.artwork-container {
+    display: flex;
+    flex: 1 1 50vw;
+}
+
+.artwork-container img {
+    height: 100%;
+    max-height: 95.5vh;
+    min-width: 100%;
+    max-width: 100vw;
+}
+
+pre {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 4.5vh;
+    font-size: 0.5vh;
+    color: #ff2079;
+    width: 100vw;
+    text-align: center;
+    font-weight: bolder;
+    background-color: black;
+    /*white-space: pre;*/
+}
+
+.gallery {
+    margin-top: 4.5vh;
+    width: 100vw;
+    height: 95.5vh;
+    text-align: center;
+    background-color: #04005e;
+}
+
+.footer-container {
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #440bd4;
+}
+
+
+
